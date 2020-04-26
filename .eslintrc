@@ -14,6 +14,9 @@
     "camelcase": "off",
     "react/jsx-handler-names": "off",
     "react/jsx-closing-bracket-location": "off",
-    "react/jsx-closing-tag-location": "off"
+    "react/jsx-closing-tag-location": "off",
+    "indent": "off",
+    "react/jsx-indent": "off",
+    "space-before-function-paren": "off"
   }
 }

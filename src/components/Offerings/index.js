@@ -7,7 +7,7 @@ const Offerings = ({ gridItems }) => (
       <div key={item.image} className='column is-6' style={{ borderRadius: '5px' }}>
         <section className='section'>
           <p className='has-text-centered'>
-            <img alt='' src={item.image} />
+            <img className={item.class} alt='' src={item.image} />
           </p>
           <p>{item.text}</p>
         </section>
@@ -21,7 +21,7 @@ Offerings.propTypes = {
     PropTypes.shape({
       image: PropTypes.string,
       text: PropTypes.string,
-    })
+    }),
   ),
 }
 

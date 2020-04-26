@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-starter-business",
+  "name": "taxsim-gatsby",
   "version": "2.1.2",
   "description": "Gatsby Business Website Starter",
   "main": "index.js",
@@ -12,8 +12,7 @@
     "lint:fix": "eslint --ext js,jsx --ignore-path .gitignore . --fix",
     "clean": "rm -rf public/ .cache/"
   },
-  "repository": "https://github.com/v4iv/gatsby-starter-business",
-  "author": "Vaibhav Sharma <vaibhavsharmaatwork@gmail.com>",
+  "author": "Stuart Smith <stusmitharoo@gmail.com>",
   "license": "MIT",
   "private": false,
   "remarkConfig": {
@@ -24,6 +23,7 @@
   "dependencies": {
     "@gatsby-contrib/gatsby-plugin-elasticlunr-search": "^2.3.0",
     "bulma": "^0.7.5",
+    "bulma-helpers": "^0.3.10",
     "formik": "^1.5.8",
     "gatsby": "^2.15.15",
     "gatsby-paginate": "^1.1.1",

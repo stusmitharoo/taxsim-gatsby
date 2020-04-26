@@ -39,4 +39,15 @@ nav
 .margin-top-0
   margin-top: 0 !important
 
+.section
+  &.not-mobile
+    padding: unset
+
+.image-desktop
+  @media only screen and (min-width: 400px)
+    width: 200px
+    height: 400px
+    margin-right: 100px
+
 @import "~bulma"
+@import "~bulma-helpers"

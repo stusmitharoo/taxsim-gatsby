@@ -117,7 +117,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-feed',
       options: {
-        setup (ref) {
+        setup(ref) {
           const ret = ref.query.site.siteMetadata.rssMetadata
           ret.allMarkdownRemark = ref.query.allMarkdownRemark
           ret.generator = config.siteTitle
@@ -142,11 +142,11 @@ module.exports = {
               `,
         feeds: [
           {
-            serialize (ctx) {
+            serialize(ctx) {
               const rssMetadata = ctx.query.site.siteMetadata.rssMetadata
               return ctx.query.allMarkdownRemark.edges
                 .filter(
-                  edge => edge.node.frontmatter.templateKey === 'article-page'
+                  edge => edge.node.frontmatter.templateKey === 'article-page',
                 )
                 .map(edge => ({
                   categories: edge.node.frontmatter.tags,

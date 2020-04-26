@@ -16,7 +16,10 @@ const HomePage = ({ data }) => {
         heading={frontmatter.heading}
         description={frontmatter.description}
         offerings={frontmatter.offerings}
-        testimonials={frontmatter.testimonials}
+        whoForTitle={frontmatter.whoForTitle}
+        whoFor={frontmatter.whoFor}
+        whyNotTitle={frontmatter.whyNotTitle}
+        whyNot={frontmatter.whyNot}
       />
     </Layout>
   )
@@ -45,11 +48,16 @@ export const pageQuery = graphql`
           blurbs {
             image
             text
+            class
           }
         }
-        testimonials {
-          author
-          quote
+        whoForTitle
+        whoFor {
+          item
+        }
+        whyNotTitle
+        whyNot {
+          item
         }
       }
     }
