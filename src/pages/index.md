@@ -6,7 +6,7 @@ meta_description: >-
   A Tax application that automates the tax system for uk self employed individuals.
 heading: Simplified tax app for self employed individuals.
 description: >-
-  Automate your tax return in 4 easy steps.
+  Automate your tax return and get up to date information as well as predicted forecast's.
 offerings:
   blurbs:
     - image: /img/connectBank.png
@@ -28,9 +28,11 @@ offerings:
 whoForTitle: Who is Taxsim for
 whoFor:
   - item: >-
+      Must be a UK resident.
+  - item: >-
       Self employed individuals.
   - item: >-
-      Your incomings are not above £86,000.
+      Your turnover is not above £70,000.
   - item: >-
       Includes construction industry scheme.
 whyNotTitle: Why not to use Taxsim
