@@ -1,40 +1,36 @@
 ---
 templateKey: pricing-page
 title: Pricing
-meta_title: Pricing | Gatsby Starter Business
+meta_title: Pricing | Taxsim
 meta_description: >-
-  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
-  ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
-  venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis
-  consectetur purus sit amet fermentum.
+  Pricing page for Taxsim accounting software for the self employed individual .
 pricing:
   description: >-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porta justo justo, 
-    non semper odio cursus in. Curabitur ligula tortor, tristique non odio nec, imperdiet 
-    mattis leo. Vivamus aliquam rhoncus tortor vitae convallis. Aliquam non dui nibh. Nam 
-    a velit at enim sagittis pellentesque.
-  heading: Monthly subscriptions
+    Pricing is based on your turnover the amount of money you receive through invoices. Sign up free once you have received invoices for £10,000.00 a subscription will be required and will scale depending on your turnover.
+  heading: 6 Monthly subscriptions
   plans:
-    - description: Nulla faucibus, leo a condimentum aliquam, libero leo vehicula arcu
+    - description: The Bronze service is for incoming of up to £10,000.00.
       items:
-        - Lorem ipsum dolor sit amet
-        - consectetur adipiscing elit
-        - Nunc finibus sem a sem ultrices
-      plan: Pro
-      price: '50'
-    - description: Mauris vitae dolor eu mauris malesuada cursus.
+        - Overview of basic tax breakdown
+        - Tax return submitted annually
+        - Listing of previous tax returns
+      plan: Bronze
+      price: 'Free'
+    - description: The Silver service is for incoming of up to £40,000.00.
       items:
-        - eget sagittis magna tempor
-        - Quisque pulvinar lorem molestie
-        - Proin at sagittis ex
-      plan: Enterprise
-      price: '80'
-    - description: Praesent elit lectus, iaculis vel odio vitae, bibendum auctor lacus.
+        - Overview of basic tax breakdown
+        - Tax return submitted annually
+        - Listing of previous tax returns
+        - Total cost £40.00 annually
+      plan: Silver
+      price: '20'
+    - description: The Gold service is for incoming of up to £80,000.00.
       items:
-        - Pellentesque luctus neque id mauris accumsan
-        - nec imperdiet justo eleifend
-        - Sed eget ornare orci
-      plan: Custom
-      price: '??'
+        - Overview of basic tax breakdown
+        - Tax return submitted annually
+        - Listing of previous tax returns
+        - Total cost £80.00 annually
+      plan: Gold
+      price: '40'
 ---
 
