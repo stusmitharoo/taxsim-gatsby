@@ -30,16 +30,16 @@ const NavBar = ({ toggleNavbar, isActive, logo }) => (
         <div className={`navbar-menu ${isActive ? 'is-active' : ''}`} id='navMenu'>
 
           <div className='navbar-end'>
-            <SearchBox searchIndex={data.siteSearchIndex.index} />
+            {/* <SearchBox searchIndex={data.siteSearchIndex.index} /> */}
             {/* <Link className='navbar-item' to='/about'>
               About
             </Link> */}
             <Link className='navbar-item' to='/pricing'>
               Pricing
             </Link>
-            <Link className='navbar-item' to='/blog'>
+            {/* <Link className='navbar-item' to='/blog'>
               Blog
-            </Link>
+            </Link> */}
             <div className='navbar-item'>
               <div className='field is-grouped'>
                 <p className='control'>

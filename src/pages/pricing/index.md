@@ -9,7 +9,7 @@ pricing:
     Pricing is based on your turnover the amount of money you receive through invoices. Sign up free once you have received invoices for £10,000.00 a subscription will be required and will scale depending on your turnover.
   heading: 6 Monthly subscriptions
   plans:
-    - description: The Bronze service is for incoming of up to £10,000.00.
+    - description: The Bronze service is for incoming of up to £15,000.00.
       items:
         - Overview of basic tax breakdown
         - Tax return submitted annually

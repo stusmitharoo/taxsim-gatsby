@@ -1,10 +1,3 @@
-# gatsby-starter-business
-A [Gatsby v2](https://www.gatsbyjs.org/) and [Netlify CMS](https://www.netlifycms.org) powered generic business website.
-
-It follows the [JAMstack architecture](https://jamstack.org) by using Git as a single source of truth, and [Netlify](https://www.netlify.com) for continuous deployment, and CDN distribution.
-
-## Demo
-[Gatsby Starter Business](https://gatsby-starter-business.netlify.com)
 
 ## Features
 * Complete Business Website Suite - Home Page, About Page, Pricing Page, Contact Page and Blog
@@ -22,11 +15,6 @@ It follows the [JAMstack architecture](https://jamstack.org) by using Git as a s
 ## Prerequisite
 * Node
 * Gatsby CLI (globally installed)
-
-## Getting Started
-Create your own project with Gatsby CLI:
-```shell
-gatsby new yourbusinessname https://github.com/v4iv/gatsby-starter-business.git 
 ```
 
 ## Available Scripts
@@ -64,33 +52,3 @@ yarn clean
 ## Configuration
 To personalize and configure this Starter open `config.js` file and replace the default values.
 
-```javascript
-module.exports = {
-  siteTitle: 'Gatsby Starter Business', // Site title.
-  siteTitleAlt: 'Business', // Alternative site title for SEO.
-  siteLogo: '/icons/icon-512x512.png', // Logo used for SEO and manifest.
-  siteUrl: 'https://gatsby-starter-business.netlify.com', // Domain of your website without pathPrefix.
-  // Do not use trailing slash!
-  pathPrefix: '/', // Prefixes all links. For cases when deployed to example.github.io/gatsby-starter-business/.
-  siteDescription: 'Leverage Gatsby Business Starter for your Business.', // Website description used for RSS feeds/meta description tag.
-  siteRss: '/rss.xml',
-  siteFBAppID: '', // FB Application ID for using app insights
-  googleTagManagerID: '', // GTM tracking ID.
-  disqusShortname: 'gatsby-business-starter', // Disqus shortname.
-  userName: 'Vaibhav Sharma',
-  userTwitter: 'vaibhaved',
-  userLocation: 'Delhi NCR, India',
-  userDescription: '',
-  copyright: 'Copyright © Gatsby Starter Business 2018. All Rights Reserved.', // Copyright string for the footer of the website and RSS feed.
-  themeColor: '#00d1b2', // Used for setting manifest and progress theme colors.
-  backgroundColor: '#ffffff', // Used for setting manifest background color.
-}
-
-```
-
-## Deployment
-Clicking the button will ask for authentication via Github, which will create a repo in your github account with this starter. Then, it will build and deploy the site to Netlify.
-
-<a href="https://app.netlify.com/start/deploy?repository=https://github.com/v4iv/gatsby-starter-business&amp;stack=cms"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify"></a>
-
-You can read up on how to set up Identity(Authentication for CMS User) here [How To Set Up Netlify CMS](https://www.netlifycms.org/docs/add-to-your-site/)
