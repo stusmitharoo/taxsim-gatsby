@@ -1,7 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import Offerings from '../Offerings'
-import Conditions from '../conditions'
+import Conditions from '../Conditions'
 import PropTypes from 'prop-types'
 
 const HomePageTemplate = ({
@@ -11,6 +11,7 @@ const HomePageTemplate = ({
   offerings,
   meta_title,
   meta_description,
+  registerButton,
   whoForTitle,
   whoFor,
   whyNotTitle,
@@ -44,6 +45,11 @@ const HomePageTemplate = ({
               <div className='column is-10-desktop is-offset-1-desktop is-12-mobile'>
                 <div className='content'>
                   <div>
+                    <div className='buttons has-addons is-centered'>
+                      <a className='is-medium button is-primary' href='https://app.taxsim.co.uk/register'>
+                        {registerButton}
+                      </a>
+                    </div>
                     <h3 className='has-text-weight-semibold is-size-2-desktop'>
                       {heading}
                     </h3>
@@ -54,6 +60,9 @@ const HomePageTemplate = ({
                   <Conditions listItems={whoFor} />
                   <h2 className='has-text-weight-semibold is-size-2'>{whyNotTitle}</h2>
                   <Conditions listItems={whyNot} />
+                  <a className='is-medium button is-primary has-margin-top-40' href='https://app.taxsim.co.uk/register'>
+                    {registerButton}
+                  </a>
                 </div>
               </div>
             </div>
@@ -67,6 +76,7 @@ HomePageTemplate.propTypes = {
   title: PropTypes.string,
   meta_title: PropTypes.string,
   meta_description: PropTypes.string,
+  registerButton: PropTypes.string,
   heading: PropTypes.string,
   description: PropTypes.string,
   offerings: PropTypes.shape({

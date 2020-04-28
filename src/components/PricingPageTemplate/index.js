@@ -8,6 +8,7 @@ const PricingPageTemplate = ({
   meta_title,
   meta_description,
   pricing,
+  registerButton,
 }) => (
     <div>
       <Helmet>
@@ -40,6 +41,11 @@ const PricingPageTemplate = ({
                   </h2>
                   <p className='is-size-5'>{pricing.description}</p>
                   <Pricing data={pricing.plans} />
+                  <div className='buttons has-addons is-centered'>
+                    <a className='is-medium button is-primary' href='https://app.taxsim.co.uk/register'>
+                      {registerButton}
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -53,6 +59,7 @@ PricingPageTemplate.propTypes = {
   title: PropTypes.string,
   meta_title: PropTypes.string,
   meta_description: PropTypes.string,
+  registerButton: PropTypes.string,
   pricing: PropTypes.shape({
     heading: PropTypes.string,
     description: PropTypes.string,

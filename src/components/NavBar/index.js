@@ -16,6 +16,7 @@ const NavBar = ({ toggleNavbar, isActive, logo }) => (
         <div className='navbar-brand'>
           <Link to='/' className='navbar-item'>
             <img alt='' src={logo} />
+            <strong className='has-margin-left-20'>Taxsim</strong>
           </Link>
           <button
             className={`button navbar-burger ${isActive ? 'is-active' : ''}`}
@@ -40,6 +41,24 @@ const NavBar = ({ toggleNavbar, isActive, logo }) => (
             {/* <Link className='navbar-item' to='/blog'>
               Blog
             </Link> */}
+            <div className='navbar-item'>
+              <div className='field is-grouped'>
+                <p className='control'>
+                  <a className='is-small is-outlined button is-primary' href='https://app.taxsim.co.uk/register'>
+                    Register
+                  </a>
+                </p>
+              </div>
+            </div>
+            <div className='navbar-item'>
+              <div className='field is-grouped'>
+                <p className='control'>
+                  <a className='is-small is-outlined button is-primary' href='https://app.taxsim.co.uk/login'>
+                    Login
+                  </a>
+                </p>
+              </div>
+            </div>
             <div className='navbar-item'>
               <div className='field is-grouped'>
                 <p className='control'>

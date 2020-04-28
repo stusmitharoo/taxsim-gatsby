@@ -14,6 +14,7 @@ const PricingPage = ({ data }) => {
         meta_title={frontmatter.meta_title}
         meta_description={frontmatter.meta_description}
         pricing={frontmatter.pricing}
+        registerButton={frontmatter.registerButton}
       />
     </Layout>
   )
@@ -36,6 +37,7 @@ export const pricingPageQuery = graphql`
         title
         meta_title
         meta_description
+        registerButton
         pricing {
           heading
           description
