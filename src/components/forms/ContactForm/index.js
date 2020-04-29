@@ -9,21 +9,26 @@ const encode = (data) => {
     .join('&')
 }
 
+const contactFormUrl = `${process.env.GATSBY_BASE_URL}${process.env.GATSBY_CONTACT_URL}`
+console.log('contactFormUrl', contactFormUrl)
+
 const ContactForm = () => {
   return (
     <Formik
       initialValues={{ name: '', email: '', message: '' }}
       validationSchema={validationSchema}
       onSubmit={(values, { setSubmitting }) => {
-        fetch("/?no-cache=1", {                                 //eslint-disable-line
+        fetch(contactFormUrl, {                                 //eslint-disable-line
           method: 'POST',
+          mode: 'no-cors',
           headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
           body: encode({
             'form-name': 'contact',
             ...values,
           }),
         })
-          .then(() => {
+          .then((response) => {
+            console.log('ContactForm -> response', response)
             navigate('/contact/success')
             setSubmitting(false)
           })
