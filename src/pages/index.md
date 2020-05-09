@@ -3,8 +3,8 @@ templateKey: 'home-page'
 title: Taxsim making tax simple.
 meta_title: Taxsim accounting for self employed
 meta_description: >-
-  Automate the tax return system for self employed individuals in the construction industry and forecasts
-      on profits, Tax and rebates for monthly and end of year.
+  Automate the tax return system for self employed individuals in the construction industry, forecasts
+      on profits, Tax and rebates monthly and end of year
 meta_keywords: >-
   tax return,self employed,construction,sole trader,tax rebate,tax app,cis,construction industry scheme
 heading: Simplified tax app for self employed individuals.
