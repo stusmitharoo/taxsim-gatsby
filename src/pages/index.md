@@ -1,9 +1,10 @@
 ---
 templateKey: 'home-page'
 title: Taxsim making tax simple.
-meta_title: Home | Taxsim
+meta_title: Taxsim accounting for self employed
 meta_description: >-
-  An application that automates the tax system for sole traders in the UK.
+  Automate the tax return system for self employed individuals in the construction industry and providing financial forecasts
+      on profits, Tax and rebates for monthly and end of year. accounting for sole traders who earn less than the VAT thresh hold.
 heading: Simplified tax app for self employed individuals.
 registerButton: Register with Taxsim
 description: >-
