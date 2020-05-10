@@ -10,7 +10,7 @@ meta_keywords: >-
 heading: Simplified tax app for self employed individuals.
 registerButton: Register with Taxsim
 description: >-
-  Automate your tax return and get up to date information as well as predicted forecast's.
+  Automate your tax process.
 offerings:
   blurbs:
     - image: /img/connectBank.png
@@ -18,15 +18,15 @@ offerings:
         Connect securely to your bank and allow read only access to account transactions.
     - image: /img/allocate.png
       text: >-
-        Allocate these transactions into tax brackets ie materials, tools & invoices.
+        Allocate a transaction into a tax brackets ie materials and then will automate the rest.
     - image: /img/overview.png
       text: >-
-        Tax and NI is calculated automatically on current transactions to date and a forecast for end of year.
+        Get forecast's for profit, tax and revenue for per month and end of year.
       class: >-
         image-desktop
     - image: /img/returns.png
       text: >-
-        Self assesment, CIS and NI are all submitted with a one time form and annual confirmation.
+        Submit tax returns using simplified pre-filled forms.
       class: >-
         image-desktop
 whoForTitle: Who is Taxsim for

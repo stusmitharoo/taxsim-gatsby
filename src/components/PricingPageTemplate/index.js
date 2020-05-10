@@ -32,20 +32,18 @@ const PricingPageTemplate = ({
       </section>
       <section className='section section--gradient'>
         <div className='container'>
-          <div className='section'>
-            <div className='columns'>
-              <div className='column is-10 is-offset-1'>
-                <div className='content'>
-                  <h2 className='has-text-weight-semibold is-size-2-desktop'>
-                    {pricing.heading}
-                  </h2>
-                  <p className='is-size-5'>{pricing.description}</p>
-                  <Pricing data={pricing.plans} />
-                  <div className='buttons has-addons is-centered'>
-                    <a className='is-medium button is-primary' href='https://app.taxsim.co.uk/register'>
-                      {registerButton}
-                    </a>
-                  </div>
+          <div className='columns'>
+            <div className='column is-10 is-offset-1'>
+              <div className='content'>
+                <h2 className='has-text-weight-semibold is-size-2-desktop'>
+                  {pricing.heading}
+                </h2>
+                <p className='is-size-5'>{pricing.description}</p>
+                <Pricing data={pricing.plans} />
+                <div className='buttons has-addons is-centered'>
+                  <a className='is-medium button is-primary' href='https://app.taxsim.co.uk/auth/register'>
+                    {registerButton}
+                  </a>
                 </div>
               </div>
             </div>

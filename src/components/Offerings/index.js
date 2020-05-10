@@ -5,7 +5,7 @@ const Offerings = ({ gridItems }) => (
   <div className='columns is-multiline'>
     {gridItems.map(item => (
       <div key={item.image} className='column is-6' style={{ borderRadius: '5px' }}>
-        <section className='section'>
+        <section className='has-margin-top-30'>
           <p className='has-text-centered'>
             <img className={item.class} alt='' src={item.image} />
           </p>

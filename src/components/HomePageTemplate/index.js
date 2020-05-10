@@ -46,7 +46,7 @@ const HomePageTemplate = ({
                 <div className='content'>
                   <div>
                     <div className='buttons has-addons is-centered'>
-                      <a className='is-medium button is-primary' href='https://app.taxsim.co.uk/register'>
+                      <a className='is-medium button is-primary' href='https://app.taxsim.co.uk/auth/register'>
                         {registerButton}
                       </a>
                     </div>
@@ -60,7 +60,7 @@ const HomePageTemplate = ({
                   <Conditions listItems={whoFor} />
                   <h2 className='has-text-weight-semibold is-size-2'>{whyNotTitle}</h2>
                   <Conditions listItems={whyNot} />
-                  <a className='is-medium button is-primary has-margin-top-40' href='https://app.taxsim.co.uk/register'>
+                  <a className='is-medium button is-primary has-margin-top-40' href='https://app.taxsim.co.uk/auth/register'>
                     {registerButton}
                   </a>
                 </div>

@@ -41,24 +41,9 @@ const NavBar = ({ toggleNavbar, isActive, logo }) => (
             {/* <Link className='navbar-item' to='/blog'>
               Blog
             </Link> */}
-            <div className='navbar-item'>
-              <div className='field is-grouped'>
-                <p className='control'>
-                  <a className='is-small is-outlined button is-primary' href='https://app.taxsim.co.uk/register'>
-                    Register
-                  </a>
-                </p>
-              </div>
-            </div>
-            <div className='navbar-item'>
-              <div className='field is-grouped'>
-                <p className='control'>
-                  <a className='is-small is-outlined button is-primary' href='https://app.taxsim.co.uk/login'>
-                    Login
-                  </a>
-                </p>
-              </div>
-            </div>
+            <a className='navbar-item' href='https://app.taxsim.co.uk/auth/login'>
+              Login
+            </a>
             <div className='navbar-item'>
               <div className='field is-grouped'>
                 <p className='control'>
