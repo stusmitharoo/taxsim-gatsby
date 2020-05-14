@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import favicon from './assets/img/favicon.ico'
 
 export default class HTML extends Component {
-  render () {
+  render() {
     return (
       <html lang='en' className='has-navbar-fixed-top'>
         <head>
