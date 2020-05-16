@@ -5,12 +5,10 @@ meta_title: Taxsim accounting for self employed
 meta_description: >-
   Automate the tax return system for self employed individuals in the construction industry, forecasts
       on profits, Tax and rebates monthly and end of year
-meta_keywords: >-
-  tax return,self employed,construction,sole trader,tax rebate,tax app,cis,construction industry scheme
 heading: Simplified tax app for self employed individuals.
 registerButton: Register with Taxsim
 description: >-
-  Automate your tax process.
+  Automate accounting and tax returns.
 offerings:
   blurbs:
     - image: /img/connectBank.png
@@ -18,17 +16,20 @@ offerings:
         Connect securely to your bank and allow read only access to account transactions.
     - image: /img/allocate.png
       text: >-
-        Allocate a transaction into a tax brackets ie materials and then will automate the rest.
+        Allocate expenses and revenue, assign to a tax bracket and Taxsim automates the process.
     - image: /img/overview.png
       text: >-
-        Get forecast's for profit, tax and revenue for per month and end of year.
+        Get forecast's for profit, tax and expenses per month and end of year.
       class: >-
         image-desktop
     - image: /img/returns.png
       text: >-
         Submit tax returns using simplified pre-filled forms.
       class: >-
-        image-desktop
+        image-hmrc
+    # - image: /img/anotherYear.png
+    #   text: >-
+    #     Reminder and easy resubmit your return with a few small steps.
 whoForTitle: Who is Taxsim for
 whoFor:
   - item: >-
