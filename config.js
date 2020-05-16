@@ -14,5 +14,5 @@ module.exports = {
   userDescription: '',
   copyright: 'Copyright © Taxsim 2020-2021. All Rights Reserved.', // Copyright string for the footer of the website and RSS feed.
   themeColor: '#0380a3', // Used for setting manifest and progress theme colors.
-  backgroundColor: '#ffffff', // Used for setting manifest background color.
+  backgroundColor: '#282c34', // Used for setting manifest background color.
 }
