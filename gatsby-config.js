@@ -98,6 +98,21 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        // The property ID; the tracking code won't be generated without it
+        trackingId: config.googleAnalyticsID,
+        // Defines where to place the tracking script - `true` in the head and `false` in the body
+        head: false,
+        respectDNT: true,
+        defer: true,
+        // Any additional optional fields
+        sampleRate: 5,
+        siteSpeedSampleRate: 10,
+        cookieDomain: 'taxsim.co.uk',
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: config.siteTitle,
