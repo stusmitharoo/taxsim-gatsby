@@ -91,13 +91,19 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-google-tagmanager`,
+      options: {
+        id: config.googleTagManagerID,
+        includeInDevelopment: false,
+      },
+    },
+    {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         // The property ID; the tracking code won't be generated without it
         trackingId: config.googleAnalyticsID,
         // Defines where to place the tracking script - `true` in the head and `false` in the body
-        head: true,
-        respectDNT: true,
+        head: false,
         // Any additional optional fields
         sampleRate: 5,
         siteSpeedSampleRate: 10,
