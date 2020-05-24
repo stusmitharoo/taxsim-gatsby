@@ -34,7 +34,6 @@ module.exports = {
       resolve: 'gatsby-plugin-crisp-chat',
       options: {
         websiteId: '1dc5bf59-c7c3-4dc6-9d22-56a60acad4e5',
-        defer: true, // Optional. Sets the Crisp loading script to defer instead of async. Defaults to false.
       },
     },
     {

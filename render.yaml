@@ -10,9 +10,6 @@ services:
         name: X-Frame-Options
         value: same-origin
       - path: /*
-        name: Content-Security-Policy
-        value: img-src *; https://storage.googleapis.com;
-      - path: /*
         name: Referrer-Policy
         value: same-origin
       - path: /*
