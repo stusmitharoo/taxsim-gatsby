@@ -11,7 +11,7 @@ services:
         value: same-origin
       - path: /*
         name: Content-Security-Policy
-        value: default-src 'self'; img-src *; https://storage.googleapis.com;
+        value: content-src https://www.google-analytics.com https://storage.googleapis.com https://*.crisp.chat; img-src 'self' https://*.crisp.chat 'data:'
       - path: /*
         name: Referrer-Policy
         value: same-origin
